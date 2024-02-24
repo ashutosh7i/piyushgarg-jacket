@@ -1,8 +1,16 @@
-# React + Vite
+# Piyushgarg-jacket
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Well it is a simple weekend project i made over a tweet
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a simple Tailwind + Chakra ui + React App which contains some context about its existance and a modal to buy the jackets, 
+The jackets are from amazon and the Links are Affiliated links so that i could try my luck too😁.
+
+## Contributing
+
+Feel free to contribute, i would more than happy to merge your PRs.
+
+## License
+
+This project is Made with 💖 by @Ashutosh7i

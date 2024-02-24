@@ -12,8 +12,11 @@ import {
   useDisclosure,
   Button,
   Grid,
+  VStack,
   GridItem,
+  Text,
   useBreakpointValue,
+  HStack,
 } from "@chakra-ui/react";
 
 export default function ProductModal({ isOpen, onClose }) {
@@ -42,9 +45,36 @@ export default function ProductModal({ isOpen, onClose }) {
             </Grid>
           </ModalBody>
           <ModalFooter>
-            <Button colorScheme="green" mr={3} onClick={onClose}>
-              Close
-            </Button>
+            {useBreakpointValue({
+              base: (
+                <VStack>
+                  <Text>
+                    “I choose a lazy person to do a hard job. Because a lazy
+                    person will find an easy way to do it.” ― Bill Gates
+                  </Text>
+                  <Text>and yes, i am that person😂 <Text pr={5} as="a" color="blue" href="https://twitter.com/ashutosh7i">follow🐦</Text> </Text>
+                  <Button colorScheme="green" mr={3} onClick={onClose}>
+                    Close
+                  </Button>
+                </VStack>
+              ),
+              lg: (
+                <>
+                <HStack spacing={20}>
+                  <Text>
+                    {" "}
+                    “I choose a lazy person to do a hard job. Because a lazy
+                    person will find an easy way to do it.” ― Bill Gates
+                  </Text>
+                  <Text>and yes, i am that person😂 <Text pr={5} as="a" color="blue" href="https://twitter.com/ashutosh7i">follow🐦</Text> </Text>
+                  
+                  </HStack>
+                  <Button colorScheme="green" mr={3} onClick={onClose}>
+                    Close
+                  </Button>
+                </>
+              ),
+            })}
           </ModalFooter>
         </ModalContent>
       </Modal>

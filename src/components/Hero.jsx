@@ -78,7 +78,7 @@ export default function Hero({ openModal }) {
               css={buttonStyles}
             >
               Context?
-              <Icon as={MdArrowOutward} w={5} h={5} />
+              <Icon as={MdArrowOutward} w={5} h={7} />
             </Button>
           </HStack>
         </Stack>
