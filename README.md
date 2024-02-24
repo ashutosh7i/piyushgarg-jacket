@@ -1,4 +1,5 @@
 # Piyushgarg-jacket
+[![wakatime](https://wakatime.com/badge/user/62850a07-caf8-470f-86a7-660093b4f5b4/project/018dd951-aaaa-498e-81c8-d71e4cd830b9.svg)](https://wakatime.com/badge/user/62850a07-caf8-470f-86a7-660093b4f5b4/project/018dd951-aaaa-498e-81c8-d71e4cd830b9)
 
 Well it is a simple weekend project i made over a tweet
 
