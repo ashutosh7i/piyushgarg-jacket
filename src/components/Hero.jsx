@@ -32,7 +32,6 @@ export default function Hero({ openModal }) {
         <Stack spacing={4}>
           <Text
             fontSize={"55"}
-            fontFamily={"Satisfy"}
             fontWeight={700}
             color={"#f6ff8d"}
           >
@@ -41,7 +40,6 @@ export default function Hero({ openModal }) {
           <Text
             fontSize={"55"}
             fontWeight={700}
-            fontFamily={"Satisfy"}
             color={"#f6ff8d"}
             marginTop={-6}
           >
@@ -50,7 +48,6 @@ export default function Hero({ openModal }) {
           <Text
             fontSize={"50"}
             fontWeight={700}
-            fontFamily={"Satisfy"}
             color={"#f6ff8d"}
             marginTop={-8}
           >
