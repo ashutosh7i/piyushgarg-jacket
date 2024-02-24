@@ -23,7 +23,7 @@ export default function Footer() {
       direction={{ base: "column", md: "row" }}
       spacing={4}
       justify={{ base: "center", md: "space-between" }}
-      align={{ base: "center", md: "center" }}
+      align="center" // Updated align prop
     >
       <HStack>
         <Text>Made with 💖 by</Text>

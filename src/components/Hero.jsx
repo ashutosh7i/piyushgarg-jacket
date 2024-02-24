@@ -46,7 +46,7 @@ const Feature = ({ text, icon, iconBg }) => {
 
 export default function Hero({ openModal }) {
   return (
-    <Container maxW={"full"} bg={"#27272a"} h={"100vh"}>
+    <Container maxW={"5xl"} py={12} bg={"#27272a"}>
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={20}>
         <Stack spacing={4}>
           <Text fontSize={"55"} fontWeight={700} color={"#f6ff8d"}>
