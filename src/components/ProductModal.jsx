@@ -31,6 +31,7 @@ export default function ProductModal({ isOpen, onClose }) {
           <ModalHeader>Buy Now</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
+            <Text>[official Amazon.in links so don't worry😉]</Text>
             <Grid templateColumns={columnSize} gap={4}>
               {items.map((item) => (
                 <GridItem key={item.id}>
