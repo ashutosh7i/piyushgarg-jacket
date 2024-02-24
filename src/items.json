@@ -1,11 +1,30 @@
-// links to each items with price and image
-
 [
-    {
-        "id": 1,
-        "name": "Burger",
-        "price": 5.99,
-        "image": "https://m.media-amazon.com/images/I/61SNyPhyW7L._SL1440_.jpg",
-        "link": ""
-    }
+  {
+    "id": 1,
+    "name": "High Star Men Checked Denim Jacket",
+    "price": 589,
+    "image": "https://m.media-amazon.com/images/I/61dG0qw78dL._SL1440_.jpg",
+    "link": "https://www.amazon.in/High-Star-Checked-Denim-Jacket/dp/B0C6J2B3VH/ref=sr_1_31?dib=eyJ2IjoiMSJ9.DGaaTcLDqyw3vwP5V0aLe8SqBoDU_QX5NPZ3lmxqAxUbZmHg5irh1CJju62xG00dK-3MkiOGkgVgQczx1HnRxZ3pflDG7926K0Dw0e2ULxVpVceqrrQL9mLENyz2RjGI3gKWAhklcwBTp-r9t71v6FLwU_KhkahO552CSeRX1r-9geieqdY7QjwamOw-AbTfPU-w_IG5B1YVfx8Qn3x5nNMWVNh5DWo4OuEOy_4xuS8Sys-FrTj7Lay8HiuOMQTkNjo9AbbtMipc_Q55DiJqPaC0Wg63_AkxyGjXgnb-nvM.00Y83bGUmVXt955fuT3aOBmFt8Gnx_RpHFAfQvQZuD0&amp;dib_tag=se&amp;keywords=denim+jacket&amp;qid=1708767964&amp;s=apparel&amp;sr=1-31&_encoding=UTF8&tag=ashid0b-21&linkCode=ur2&linkId=f3ebb23de32df94ff1841f5882bb74ba&camp=3638&creative=24630"
+  },
+  {
+    "id": 2,
+    "name": "High Star Men Grey Wash Denim Jacket",
+    "price": 710,
+    "image": "https://m.media-amazon.com/images/I/61Mf3fANYhL._SL1440_.jpg",
+    "link": "https://www.amazon.in/High-Star-Denim-Jacket-HSJKT158_Grey/dp/B0BTW5MLDP/ref=sr_1_55?dib=eyJ2IjoiMSJ9.jB6KdvmxgMH5XVXZ059beqVYcBncEQcodkPSVr8MZQZRW4MGRWq8S50KzJL5TAzo5O5Zvbn8zRVgLgQwclbvGQWSFw71XmPqC19d-Lr-pg6Sdj2iopH6natqsokLYqraaxj60fbzONly6cXPYACbCrQStpX2suG2ut6Jx5njLw-hBnAZWhUoUAtJ0EPvTxIiPX4qQS2bwYqb2irBdg033VCiA7dbSnpdBOuJnjwjBAJxK-6WuojSz6Xqni8QPVcDCyIybiqfg4ul7zWmb0IYFPeNkjcybUtfAHtJpIksC9M.B3KVEHDfZeJLD5Z-Nb8uoXk8Nly5m5hiA0_fX9d0FCQ&amp;dib_tag=se&amp;keywords=denim+jacket&amp;qid=1708768016&amp;s=apparel&amp;sr=1-55&_encoding=UTF8&tag=ashid0b-21&linkCode=ur2&linkId=ff260ed75c288a5f9dd5ac35bd85e937&camp=3638&creative=24630"
+  },
+  {
+    "id": 3,
+    "name": "ARBIA FUNKI Men's Solid Denim Jacket",
+    "price": 999,
+    "image": "https://m.media-amazon.com/images/I/61AaWi9BT0L._SL1440_.jpg",
+    "link": "https://www.amazon.in/ARBIA-FUNKI-Sleeve-Blouson-Jacket/dp/B08R6F2NK7/ref=sr_1_18?dib=eyJ2IjoiMSJ9.B9l1NuMLrds4nw7FE3GMfMAZOVPG9vI5m_Bt5jSsAWUPhwGmobUu2ROIUQeFOMCi-bzOuehqQk6HeHvdLJwb_QAMgiAxTQKzRN6DLMHx-Nzka6MJsT5GEud8PrYz2HdX_-Gc4BI0UBQc5H6eRkMFIuStG5YvDR6QsR5mF51A9IcOmNvie6M2FVryXlp-WuEPS3jJCJXxoYmyJ08D0eFJO9xt9X-oJkjv_a9em2tz2HhPsQVd741ggCnXo__BzEV4EjZbatbScK_EW7Y-SFETAar8RjWpV4--wiAQsxkUefc.lrwkh4byUwhZePX5RTnW_DhyGBlLknQm6VkRrL8thbs&amp;dib_tag=se&amp;keywords=denim+jacket+with+hood&amp;qid=1708768077&amp;s=apparel&amp;sr=1-18&_encoding=UTF8&tag=ashid0b-21&linkCode=ur2&linkId=4242152b97e03df4d92346258f5c5cd8&camp=3638&creative=24630"
+  },
+  {
+    "id": 4,
+    "name": "DENNIS LINGO Men's Cotton Denim Jacket",
+    "price": 1449,
+    "image": "https://m.media-amazon.com/images/I/513pcr08zkL.jpg",
+    "link": "https://www.amazon.in/DENNIS-LINGO-Washed-Cotton-Sleeves/dp/B0CQFZQ4GB/ref=sr_1_43?dib=eyJ2IjoiMSJ9.DGaaTcLDqyw3vwP5V0aLe8SqBoDU_QX5NPZ3lmxqAxUbZmHg5irh1CJju62xG00dK-3MkiOGkgVgQczx1HnRxZ3pflDG7926K0Dw0e2ULxVpVceqrrQL9mLENyz2RjGI3gKWAhklcwBTp-r9t71v6FLwU_KhkahO552CSeRX1r-9geieqdY7QjwamOw-AbTfPU-w_IG5B1YVfx8Qn3x5nNMWVNh5DWo4OuEOy_4xuS8Sys-FrTj7Lay8HiuOMQTkNjo9AbbtMipc_Q55DiJqPaC0Wg63_AkxyGjXgnb-nvM.00Y83bGUmVXt955fuT3aOBmFt8Gnx_RpHFAfQvQZuD0&amp;dib_tag=se&amp;keywords=denim+jacket&amp;qid=1708767783&amp;s=apparel&amp;sr=1-43&_encoding=UTF8&tag=ashid0b-21&linkCode=ur2&linkId=7d396bce0c166e1bc8f09b94fe73df06&camp=3638&creative=24630"
+  }
 ]

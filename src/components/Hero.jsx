@@ -44,7 +44,7 @@ const Feature = ({ text, icon, iconBg }) => {
   );
 };
 
-export default function SplitWithImage() {
+export default function Hero({ openModal }) {
   return (
     <Container maxW={"5xl"} py={12}>
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={20}>
@@ -104,7 +104,7 @@ export default function SplitWithImage() {
           </Stack> */}
 
           <HStack pt={10}>
-            <Button bgColor="#f6ff8d" variant="solid">
+            <Button bgColor="#f6ff8d" variant="solid" onClick={openModal}>
               Buy Now 😎
             </Button>
 
