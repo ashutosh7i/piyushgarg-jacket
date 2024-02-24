@@ -13,7 +13,7 @@ export default function Footer() {
                 textAlign: "center"
             }}
         >
-            Made with 💖 by <a href="https://ashutosh7i.dev">Ashutosh7i</a>
+            Made with 💖 by <a href="https://linkedin.com/in/ashutosh7i">Ashutosh7i</a>
         </footer>
     );
 }
