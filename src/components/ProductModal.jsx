@@ -25,7 +25,7 @@ export default function ProductModal({ isOpen, onClose }) {
         <ModalContent padding="4">
           <ModalHeader>Buy Now</ModalHeader>
           <ModalCloseButton />
-          <ModalBody>
+          <ModalBody overflowY="auto" maxHeight="70vh"> {/* Set overflowY to auto and maxHeight to limit the height */}
             <Grid templateColumns="repeat(4, 1fr)" gap={4}>
               {items.map((item) => (
                 <GridItem key={item.id}>
