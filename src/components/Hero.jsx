@@ -50,7 +50,6 @@ export default function Hero({ openModal }) {
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={20}>
         <Stack spacing={4}>
           <Text
-            fontFamily={"Satisfy"}
             fontSize={"55"}
             fontWeight={700}
             color={"#f6ff8d"}
@@ -58,7 +57,6 @@ export default function Hero({ openModal }) {
             Like
           </Text>
           <Text
-            fontFamily={"Satisfy"}
             fontSize={"55"}
             fontWeight={700}
             color={"#f6ff8d"}
@@ -67,7 +65,6 @@ export default function Hero({ openModal }) {
             Piyush's
           </Text>
           <Text
-            fontFamily={"Satisfy"}
             fontSize={"50"}
             fontWeight={700}
             color={"#f6ff8d"}
