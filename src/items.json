@@ -1,0 +1,11 @@
+// links to each items with price and image
+
+[
+    {
+        "id": 1,
+        "name": "Burger",
+        "price": 5.99,
+        "image": "https://m.media-amazon.com/images/I/61SNyPhyW7L._SL1440_.jpg",
+        "link": ""
+    }
+]
