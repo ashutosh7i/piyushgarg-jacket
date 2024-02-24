@@ -17,8 +17,9 @@ export default function Footer() {
       bg={"#27272a"}
       as={Stack}
       color={"white"}
-      maxW={"6xl"}
+      maxW={"full"}
       py={4}
+      mt={10}
       direction={{ base: "column", md: "row" }}
       spacing={4}
       justify={{ base: "center", md: "space-between" }}
