@@ -18,7 +18,7 @@ export default function App() {
 
   return (
     <>
-      <Container maxW={"full"} bg={"#27272a"} h={"130vh"}>
+      <Container maxW={"full"} bg={"#27272a"} >
         <Navbar />
         <ProductModal isOpen={isModalOpen} onClose={closeModal} />
         <Hero openModal={openModal} />

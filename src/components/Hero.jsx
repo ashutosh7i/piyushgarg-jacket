@@ -14,7 +14,6 @@ import {
   HStack,
 } from "@chakra-ui/react";
 
-import { ReactElement } from "react";
 import { MdArrowOutward } from "react-icons/md";
 
 import { css } from "@emotion/react";
@@ -26,35 +25,23 @@ const buttonStyles = css`
   }
 `;
 
-const Feature = ({ text, icon, iconBg }) => {
-  return (
-    <Stack direction={"row"} align={"center"}>
-      <Flex
-        w={8}
-        h={8}
-        align={"center"}
-        justify={"center"}
-        rounded={"full"}
-        bg={iconBg}
-      >
-        {icon}
-      </Flex>
-      <Text fontWeight={600}>{text}</Text>
-    </Stack>
-  );
-};
-
 export default function Hero({ openModal }) {
   return (
-    <Container maxW={"5xl"} py={12} bg={"#27272a"}>
+    <Container maxW={"5xl"} pt={20} bg={"#27272a"}>
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={20}>
         <Stack spacing={4}>
-          <Text fontSize={"55"} fontWeight={700} color={"#f6ff8d"}>
+          <Text
+            fontSize={"55"}
+            fontFamily={"Satisfy"}
+            fontWeight={700}
+            color={"#f6ff8d"}
+          >
             Like
           </Text>
           <Text
             fontSize={"55"}
             fontWeight={700}
+            fontFamily={"Satisfy"}
             color={"#f6ff8d"}
             marginTop={-6}
           >
@@ -63,6 +50,7 @@ export default function Hero({ openModal }) {
           <Text
             fontSize={"50"}
             fontWeight={700}
+            fontFamily={"Satisfy"}
             color={"#f6ff8d"}
             marginTop={-8}
           >
@@ -74,27 +62,6 @@ export default function Hero({ openModal }) {
             miss out on this opportunity to upgrade your wardrobe. Shop now and
             get ready to turn heads wherever you go.
           </Text>
-          {/* <Stack
-            spacing={4}
-            divider={
-              <StackDivider borderColor={useColorModeValue('gray.100', 'gray.700')} />
-            }>
-            <Feature
-             // icon={<Icon as={IoAnalyticsSharp} color={'yellow.500'} w={5} h={5} />}
-              iconBg={useColorModeValue('yellow.100', 'yellow.900')}
-              text={'Business Planning'}
-            />
-            <Feature
-              //icon={<Icon as={IoLogoBitcoin} color={'green.500'} w={5} h={5} />}
-              iconBg={useColorModeValue('green.100', 'green.900')}
-              text={'Financial Planning'}
-            />
-            <Feature
-              //icon={<Icon as={IoSearchSharp} color={'purple.500'} w={5} h={5} />}
-              iconBg={useColorModeValue('purple.100', 'purple.900')}
-              text={'Market Analysis'}
-            />
-          </Stack> */}
 
           <HStack pt={10}>
             <Button bgColor="#f6ff8d" variant="solid" onClick={openModal}>
@@ -126,6 +93,7 @@ export default function Hero({ openModal }) {
               "https://yt3.googleusercontent.com/H3djB_hVq1Ka1auGf5eCi-wUfwI-kctMW-skVqrXnJwAvqQxI8XSw_ErmyUMNEQmMIxcQgNhNGU=s900-c-k-c0x00ffffff-no-rj"
             }
             objectFit={"cover"}
+            pb={10}
           />
         </Flex>
       </SimpleGrid>

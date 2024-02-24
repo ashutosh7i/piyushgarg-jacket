@@ -1,41 +1,19 @@
-import {
-  Box,
-  chakra,
-  Container,
-  HStack,
-  Stack,
-  Text,
-  useColorModeValue,
-  VisuallyHidden,
-  VStack,
-} from "@chakra-ui/react";
-import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import React from "react";
 
 export default function Footer() {
-  return (
-    <Container
-      bg={"#27272a"}
-      as={Stack}
-      color={"white"}
-      maxW={"full"}
-      py={4}
-      mt={10}
-      direction={{ base: "column", md: "row" }}
-      spacing={4}
-      justify={{ base: "center", md: "space-between" }}
-      align="center" // Updated align prop
-    >
-      <HStack>
-        <Text>Made with 💖 by</Text>
-        <Text
-          onClick={() => window.open("https://ashutosh7i.dev")}
-          cursor="pointer"
-          fontSize="md"
-          color={"silver"}
+    return (
+        <footer
+            style={{
+                position: "fixed",
+                left: 0,
+                bottom: 10,
+                width: "100%",
+                color: "white",
+                paddingTop: 50,
+                textAlign: "center"
+            }}
         >
-          Ashutosh7i
-        </Text>
-      </HStack>
-    </Container>
-  );
+            Made with 💖 by <a href="https://ashutosh7i.dev">Ashutosh7i</a>
+        </footer>
+    );
 }

@@ -2,8 +2,12 @@ import { extendTheme } from "@chakra-ui/react";
 import "./fonts.css";
 
 const theme = extendTheme({
-  fonts: {
-    hero: "Satisfy",
+  styles: {
+    global: () => ({
+      body: {
+        bg: "#27272a",
+      },
+    }),
   },
 });
 

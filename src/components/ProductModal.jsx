@@ -13,10 +13,12 @@ import {
   Button,
   Grid,
   GridItem,
+  useBreakpointValue,
 } from "@chakra-ui/react";
 
 export default function ProductModal({ isOpen, onClose }) {
   const { onOpen } = useDisclosure();
+  const columnSize = useBreakpointValue({ base: "1fr", lg: "repeat(4, 1fr)" });
 
   return (
     <>
@@ -26,7 +28,7 @@ export default function ProductModal({ isOpen, onClose }) {
           <ModalHeader>Buy Now</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            <Grid templateColumns="repeat(4, 1fr)" gap={4}>
+            <Grid templateColumns={columnSize} gap={4}>
               {items.map((item) => (
                 <GridItem key={item.id}>
                   <ProductCard
